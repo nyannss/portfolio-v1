@@ -4,7 +4,10 @@ const nextConfig = {
         remotePatterns: [
             {
                 hostname: "media.licdn.com"
-            }
+            },
+            {
+                hostname: "github.com"
+            },
         ]
     }
 };

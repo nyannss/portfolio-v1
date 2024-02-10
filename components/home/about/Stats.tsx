@@ -39,8 +39,6 @@ export const Stats = () => {
                         <span className="chip">Next.js</span>
                         <span className="chip">Tailwind</span>
                         <span className="chip">Figma</span>
-                        <span className="chip">Planetscale</span>
-                        <span className="chip">GraphQL</span>
                         <span className="chip">Firebase</span>
                         <span className="chip">Supabase</span>
                         <span className="chip">Vercel</span>

@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import styles from "./home.module.scss";
 import { Header } from "@/components/nav/Header";
@@ -5,6 +6,7 @@ import { SideBar } from "@/components/nav/SideBar";
 import { Hero } from "@/components/home/hero/Hero";
 import { About } from "@/components/home/about/About";
 import { Contact } from "@/components/home/contact/Contact";
+import { Projects } from "@/components/home/projects/Projects";
 
 export const Home = () => {
     return (
@@ -15,6 +17,7 @@ export const Home = () => {
                     <Header />
                     <Hero />
                     <About />
+                    <Projects />
                     <Contact />
                     <div
                         style={{
