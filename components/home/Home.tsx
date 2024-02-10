@@ -4,6 +4,7 @@ import { Header } from "@/components/nav/Header";
 import { SideBar } from "@/components/nav/SideBar";
 import { Hero } from "@/components/home/hero/Hero";
 import { About } from "@/components/home/about/About";
+import { Contact } from "@/components/home/contact/Contact";
 
 export const Home = () => {
     return (
@@ -14,7 +15,7 @@ export const Home = () => {
                     <Header />
                     <Hero />
                     <About />
-                    {/* // goes here */}
+                    <Contact />
                     <div
                         style={{
                             height: "200px",
