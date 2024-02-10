@@ -3,6 +3,7 @@ import styles from "./home.module.scss";
 import { Header } from "@/components/nav/Header";
 import { SideBar } from "@/components/nav/SideBar";
 import { Hero } from "@/components/home/hero/Hero";
+import { About } from "@/components/home/about/About";
 
 export const Home = () => {
     return (
@@ -12,6 +13,7 @@ export const Home = () => {
                 <main id="main">
                     <Header />
                     <Hero />
+                    <About />
                     {/* // goes here */}
                     <div
                         style={{

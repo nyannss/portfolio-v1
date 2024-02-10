@@ -24,7 +24,7 @@ export const Hero = () => {
                         </Reveal>
                         <Reveal>
                             <p className={styles.aboutCopy}>
-                                I&apos;m a fullstack developer with a strong passion for continuous learning and collaboration, actively seeking new opportunities.
+                                I&apos;m a web developer with a strong passion for continuous learning and collaboration, actively seeking new opportunities.
                                 Let&apos;s connect!
                             </p>
                         </Reveal>

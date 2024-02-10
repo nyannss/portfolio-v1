@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import styles from "./sidebar.module.scss";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export const SideBar = () => {
     const [selected, setSelected] = useState("");
@@ -39,7 +40,8 @@ export const SideBar = () => {
                         document.getElementById("main")?.scrollIntoView() :
                         document.location.hash = '';
                 }}>
-                    FB<span>.</span>
+                    <Image src="/icon.svg" height={27} width={27} alt="FB." />
+                    {/* FB<span>.</span> */}
                 </span>
                 <motion.a
                     initial={{ x: -70 }}
